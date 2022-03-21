@@ -1,0 +1,15 @@
+# <center>Git이 SVN보다 나은 점</center>
+- SVN은 중앙 서버가 날라갈 경우 모든 History가 날라갈 수 있는 반면 Git은 최신 History를 가진 사람이 프로젝트 생성 후 push 할 경우 History가 복구가 가능하다.
+  - SVN : History 복구 불가
+  - Git : History 복구 가능
+- 커밋 내역이 많아질 경우 SVN보다 Git이 속도가 훨씬 빠르다.
+  - 속도 : Git > SVN
+- SVN은 Commit 1단계, 그러나 Git은 Commit(Remote Repository)  후 Push 처리로 협업 시 충돌을 좀 더 관리하기 편하게 할 수 있다.
+  - SVN : Workspace(offline) ---**commit**---> Remote Repository(online)
+  - Git : Workspace(offline) –--**commit**---> Local Repository(offline) ---**push**---> Remote Reository(online)
+- SVN은 저장소가 오직 원격 저장소 하나, Git은 원격 저장소의 데이터를 clone 하여 본인의 로컬 저장소에 가지고 올 수 있다. 이는 원격 저장소에 문제가 생길 경우 언제든지 본인의 로컬 저장소의 데이터로 원격 저장소 복구 가능하다는 말이다.
+  - SVN : Workspace <-> Remote Repository 
+- 중간 저장소가 없어서 한 곳에 문제가 생길 경우 복구가 힘듬
+  - Git : Workspace <-> Local Repository <-> Git Repository 
+- 중간 저장소가 있어서 한 곳에 문제가 생겨도 다른곳에서 복구 가능
+  - SVN은 commit시 바로 원격 저장소에 저장이 되어 본인의 로컬에서만 백업을 하고 싶어도 하지 못하지만 Git은 commit시 본인의 로컬에만 저장이 되기 때문에 본인의 로컬에서 충분히 소스가 안정화가 되었다 판단 한 후에 push하여 원격 저장소에 저장 가능, 이는 소스를 백업할 수 있다는 내용이며 언제든지 이전 작업으로 변경을 원하는 경우 변경이 가능하다는 내용이다.
