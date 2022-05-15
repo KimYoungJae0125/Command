@@ -1,4 +1,4 @@
-# <center>Git이 SVN보다 나은 점</center>
+# Git이 SVN보다 나은 점
 - SVN은 중앙 서버가 날라갈 경우 모든 History가 날라갈 수 있는 반면 Git은 최신 History를 가진 사람이 프로젝트 생성 후 push 할 경우 History가 복구가 가능하다.
   - SVN : History 복구 불가
   - Git : History 복구 가능

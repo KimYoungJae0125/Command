@@ -1,4 +1,4 @@
-# <center>Git의 주요 명령어</center>
+# Git의 주요 명령어
 - clone
   - 원격 저장소에서 로컬 저장소로 소스 복사
 - commit

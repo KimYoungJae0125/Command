@@ -1,4 +1,4 @@
-# <center>Git과 SVN의 차이점</center>
+# Git과 SVN의 차이점
 - 사용법
   - SVN : 간편하고 어렵지 않음
   - Git : 다소 복잡하고 초보자가 이해하기 어려움

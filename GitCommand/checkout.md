@@ -1,1 +1,0 @@
-# <center>checkout</center>
