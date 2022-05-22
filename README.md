@@ -11,3 +11,8 @@
 
 ## Docker
 - 가상화 컨테이너
+
+<br>
+
+## Redis
+- NoSQL 메모리 DB
